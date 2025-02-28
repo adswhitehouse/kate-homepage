@@ -84,3 +84,59 @@ header {
 .nav-list ul li a:hover {
   color: #ff4321;
 }
+
+/* Main */
+/* Main Content */
+main {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+  align-items: center;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.content h1 {
+  font-size: 4rem;
+}
+
+.content p {
+  color: #404040;
+}
+
+.kate {
+  color: #ff4321;
+}
+
+.content button {
+  width: 10rem;
+  background-color: #000;
+  color: #fff;
+  padding-block: 0.5rem;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.social-links a {
+  color: #404040;
+  transition: 0.25s;
+}
+
+.social-links a:hover {
+  color: #ff4321;
+}
+
+/* Main Images */
