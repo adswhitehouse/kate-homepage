@@ -55,4 +55,32 @@ select {
 /* Body */
 body {
   font-family: "Poppins", serif;
+  background-color: #ecf2fc;
+}
+
+/* Header */
+header {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+}
+
+.nav-list ul {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: #404040;
+  font-size: 1.2rem;
+  transition: color 0.25s;
+}
+
+.nav-list ul li a:hover {
+  color: #ff4321;
 }
