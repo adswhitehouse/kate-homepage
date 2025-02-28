@@ -19,13 +19,15 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="jsBody">
+  <!-- Header -->
   <header>
     <div class="logo">
       <a href="#"><img src="./images/logo.png" alt="logo"></a>
     </div>
+    <!-- Header Nav -->
     <nav class="nav-list jsNavList">
-      <ul role="list">
+      <ul role="list" id="jsNavUl">
         <li><a href="#">home</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">portfolio</a></li>
@@ -33,27 +35,35 @@
         <li><a href="#">hire me</a></li>
       </ul>
     </nav>
+    <!-- Menu Icon -->
     <i class="fa-solid fa-bars jsMenu"></i>
   </header>
+  <!-- Main -->
   <main>
+    <!-- Content Container -->
     <div class="content">
+      <!-- Content -->
       <div class="text-content">
         <h1>I'm <span class="kate">Kate</span> Amelia</h1>
-        <p>This is my official portfolio website to showcase all my work related to web development and UI design.</p>
-        <button>Download CV</button>
-      </div>
-      <div class="socials">
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <p id="text-content-para">This is my official portfolio website to showcase all my work related to web
+          development and UI design.</p>
+        <button id="downloadCVBtn">Download CV</button>
       </div>
     </div>
+    <!-- Social Links -->
+    <div class="socials">
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
   </main>
+  <!-- Body Images -->
   <div class="image-box">
     <img src="./images/pattern.png" alt="decorative pattern" class="pattern-img">
     <img src="./images/girl.png" alt="kate" class="kate-img">
   </div>
-
+  <!-- Dark/Light Mode Button -->
+  <button class="display-mode jsDisplayMode"><i class="fa-solid fa-moon jsDisplayModeIcon"></i></button>
   <script src="./scipt.js"></script>
 </body>
 
