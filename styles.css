@@ -160,7 +160,7 @@ main {
   position: absolute;
   right: 11%;
   bottom: 0;
-  z-index: -1;
+  transition: right 0.5s;
 }
 
 .pattern-img {
@@ -168,7 +168,16 @@ main {
   position: absolute;
   right: 10%;
   bottom: 4rem;
-  z-index: -1;
+  transition: bottom 0.5s;
+}
+
+/* Image Box */
+.image-box:hover .kate-img {
+  right: 8%;
+}
+
+.image-box:hover .pattern-img {
+  bottom: 6rem;
 }
 
 /* Media Queries */
@@ -255,6 +264,10 @@ main {
 
   .text-content h1 {
     font-size: 2rem;
+  }
+
+  .kate-img, .pattern-img {
+    z-index: -1;
   }
 }
 
